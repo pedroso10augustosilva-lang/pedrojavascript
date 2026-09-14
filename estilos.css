@@ -1,3 +1,4 @@
+/* Variáveis CSS: definem as cores em um só lugar */
 :root {
   --fundo: #f5f5f5;
   --texto: #1a1a1a;
@@ -5,6 +6,7 @@
   --acento: #2563eb;
 }
 
+/* Classe aplicada ao <body> pelo JavaScript muda as variáveis */
 body.tema-escuro {
   --fundo: #1a1a2e;
   --texto: #eaeaea;
